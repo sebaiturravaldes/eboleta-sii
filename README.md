@@ -6,7 +6,9 @@ En el llamado de la función `main({...})` del archivo `src/index.js`, puedes co
 
 ## Demo
 
-[![Alt text](https://i.ytimg.com/an_webp/sFmf94rA19U/mqdefault_6s.webp?du=3000&sqp=CM7FwLsG&rs=AOn4CLDg7WBZ7V4yFsfxdGd8Bf5PV8pN3A)](https://youtu.be/jWhUYQPx2sU)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jWhUYQPx2sU/0.jpg)](https://www.youtube.com/watch?v=jWhUYQPx2sU)
+
+[Ver Video en youtube](https://www.youtube.com/watch?v=jWhUYQPx2sU)
 
 ## Instalación
 
