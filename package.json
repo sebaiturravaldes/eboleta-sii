@@ -1,0 +1,17 @@
+{
+  "name": "eboleta-sii",
+  "version": "1.0.0",
+  "description": "Permite generar boletas en el SII con tus credenciales.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "tsx src/index.js"
+  },
+  "keywords": [],
+  "author": "Sebastian Iturra",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "puppeteer": "^23.11.1",
+    "tsx": "^4.19.2"
+  }
+}
