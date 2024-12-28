@@ -4,6 +4,10 @@ Este código te permite ingresar al sistema [Eboleta SII](https://eboleta.sii.cl
 
 En el llamado de la función `main({...})` del archivo `src/index.js`, puedes configurar los datos a ser llenados en la boleta.
 
+## Demo
+
+[![Alt text](https://i.ytimg.com/an_webp/sFmf94rA19U/mqdefault_6s.webp?du=3000&sqp=CM7FwLsG&rs=AOn4CLDg7WBZ7V4yFsfxdGd8Bf5PV8pN3A)](https://youtu.be/jWhUYQPx2sU)
+
 ## Instalación
 
 Se deberán instalar los paquetes necesarios, para esto se debe ejecutar el siguiente comando:

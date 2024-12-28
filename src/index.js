@@ -26,7 +26,7 @@ async function main({ amount, detail, rut, name, email }) {
     });
     const context = browser.defaultBrowserContext();
 
-    await context.overridePermissions("https://eboleta.sii.cl", []); // No permisos concedidos
+    await context.overridePermissions("https://eboleta.sii.cl", []); // No conceder permisos
 
     const page = await browser.newPage();
 

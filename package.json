@@ -6,7 +6,9 @@
   "scripts": {
     "start": "tsx src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "sii", "boleta", "electronica", "eboleta", "chile"
+  ],
   "author": "Sebastian Iturra",
   "license": "ISC",
   "dependencies": {
