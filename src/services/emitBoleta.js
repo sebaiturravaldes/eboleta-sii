@@ -32,4 +32,13 @@ export default async function emitBoleta(
   // Emitimos la boleta
   await page.waitForSelector(SELECTORS.EMIT.EMIT_BUTTON);
   await page.click(SELECTORS.EMIT.EMIT_BUTTON);
+
+  // Extraemos la url del PDF
+  await page.waitForSelector(SELECTORS.EMIT.PDF_LINK)
+  const pdfLink = await page.$eval(SELECTORS.EMIT.PDF_LINK, el => el.href)
+
+  // Folio que esta entre _folio[folio]_
+  const folio = pdfLink.match(/folio(\d+)/)[1]
+
+  return { pdfLink, folio }
 }
